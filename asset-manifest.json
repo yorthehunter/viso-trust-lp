@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/viso-trust-lp/static/css/main.23061fdf.chunk.css",
+    "main.js": "/viso-trust-lp/static/js/main.ac0bf44f.chunk.js",
+    "main.js.map": "/viso-trust-lp/static/js/main.ac0bf44f.chunk.js.map",
+    "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.335b8bb0.js",
+    "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.335b8bb0.js.map",
+    "static/js/2.3dc6131b.chunk.js": "/viso-trust-lp/static/js/2.3dc6131b.chunk.js",
+    "static/js/2.3dc6131b.chunk.js.map": "/viso-trust-lp/static/js/2.3dc6131b.chunk.js.map",
+    "static/js/3.505f5e3a.chunk.js": "/viso-trust-lp/static/js/3.505f5e3a.chunk.js",
+    "static/js/3.505f5e3a.chunk.js.map": "/viso-trust-lp/static/js/3.505f5e3a.chunk.js.map",
+    "index.html": "/viso-trust-lp/index.html",
+    "static/css/main.23061fdf.chunk.css.map": "/viso-trust-lp/static/css/main.23061fdf.chunk.css.map",
+    "static/js/2.3dc6131b.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.3dc6131b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/viso-trust-lp/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.335b8bb0.js",
+    "static/js/2.3dc6131b.chunk.js",
+    "static/css/main.23061fdf.chunk.css",
+    "static/js/main.ac0bf44f.chunk.js"
+  ]
+}
