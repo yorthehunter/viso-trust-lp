@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/viso-trust-lp/static/css/main.23061fdf.chunk.css",
-    "main.js": "/viso-trust-lp/static/js/main.cf950271.chunk.js",
-    "main.js.map": "/viso-trust-lp/static/js/main.cf950271.chunk.js.map",
-    "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.97d7455f.js",
-    "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.97d7455f.js.map",
-    "static/js/2.4545bb5f.chunk.js": "/viso-trust-lp/static/js/2.4545bb5f.chunk.js",
-    "static/js/2.4545bb5f.chunk.js.map": "/viso-trust-lp/static/js/2.4545bb5f.chunk.js.map",
-    "static/js/3.32947b9c.chunk.js": "/viso-trust-lp/static/js/3.32947b9c.chunk.js",
-    "static/js/3.32947b9c.chunk.js.map": "/viso-trust-lp/static/js/3.32947b9c.chunk.js.map",
+    "main.css": "/viso-trust-lp/static/css/main.55ee0a22.chunk.css",
+    "main.js": "/viso-trust-lp/static/js/main.0256dc0d.chunk.js",
+    "main.js.map": "/viso-trust-lp/static/js/main.0256dc0d.chunk.js.map",
+    "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.0f5ca2d9.js",
+    "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.0f5ca2d9.js.map",
+    "static/js/2.d2e5af7e.chunk.js": "/viso-trust-lp/static/js/2.d2e5af7e.chunk.js",
+    "static/js/2.d2e5af7e.chunk.js.map": "/viso-trust-lp/static/js/2.d2e5af7e.chunk.js.map",
+    "static/js/3.516cbf65.chunk.js": "/viso-trust-lp/static/js/3.516cbf65.chunk.js",
+    "static/js/3.516cbf65.chunk.js.map": "/viso-trust-lp/static/js/3.516cbf65.chunk.js.map",
     "index.html": "/viso-trust-lp/index.html",
-    "static/css/main.23061fdf.chunk.css.map": "/viso-trust-lp/static/css/main.23061fdf.chunk.css.map",
-    "static/js/2.4545bb5f.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.4545bb5f.chunk.js.LICENSE.txt",
+    "static/css/main.55ee0a22.chunk.css.map": "/viso-trust-lp/static/css/main.55ee0a22.chunk.css.map",
+    "static/js/2.d2e5af7e.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.d2e5af7e.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/viso-trust-lp/static/media/NiveauGroteskRegular.eceb2cc5.woff2",
     "static/media/logo.6ce24c58.svg": "/viso-trust-lp/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97d7455f.js",
-    "static/js/2.4545bb5f.chunk.js",
-    "static/css/main.23061fdf.chunk.css",
-    "static/js/main.cf950271.chunk.js"
+    "static/js/runtime-main.0f5ca2d9.js",
+    "static/js/2.d2e5af7e.chunk.js",
+    "static/css/main.55ee0a22.chunk.css",
+    "static/js/main.0256dc0d.chunk.js"
   ]
 }
