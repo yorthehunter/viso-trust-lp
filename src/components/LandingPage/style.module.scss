@@ -1,0 +1,39 @@
+@import '../../foundation/';
+
+.heroModule {
+  background-color: $color-gray-15;
+  color: $color-white;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+
+  header {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h1 + h2,
+  h2 + button {
+    margin-top: 3rem;
+  }
+
+  h1 {
+    @include type-title(60);
+  }
+
+  h2 {
+    @include type-body(60);
+  }
+
+  background-image:
+    url(./triangles-repeated.svg),
+    url(./triangles-fade-out.svg);
+  background-position: bottom, left bottom 192px;
+  background-repeat: repeat-x, no-repeat;
+}
+
+.content {
+  max-width: 80rem;
+  margin: auto;
+  grid-column-start: 4;
+  grid-column-end: 14;
+}
