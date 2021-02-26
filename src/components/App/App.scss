@@ -1,41 +1,8 @@
 @import '../../foundation/';
 
-.App {
-  text-align: center;
-}
+// Creates space for a fixed nav at the top of the screen
+// This class changes behavior in GlobalNav/styles.module.scss
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-
-  @include type-title(60);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fixedNav {
+  padding-top: 4.5rem;
 }

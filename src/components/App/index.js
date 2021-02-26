@@ -4,18 +4,9 @@ import GlobalNav from '../GlobalNav';
 import LandingPage from '../LandingPage';
 
 const App = () => (
-  <div className="App">
+  <div className="App fixedNav">
     <GlobalNav />
     <LandingPage />
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <button>
-        Button
-      </button>
-    </header>
   </div>
 )
 

@@ -1,0 +1,60 @@
+@import '../../foundation/';
+
+:global {
+  .fixedNav {
+    :local {
+      .globalNav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+.globalNav {
+  background-color: $color-gray-15;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  max-width: 80rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  max-height: 4.5rem;
+}
+
+.logo {
+  display: inline-block;
+  flex: 1 1;
+
+  > img {
+  max-height: 100%;
+  }
+}
+
+.navItems {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItem {
+
+}
+
+.navLink {
+  @include type-component(40);
+
+  text-decoration: none;
+  color: $color-white;
+  padding: 0.625rem 1rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
