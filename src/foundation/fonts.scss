@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Niveau Grotesk';
+  src: url('./fonts/NiveauGroteskLight.woff2') format('woff2'),
+      url('./fonts/NiveauGroteskLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niveau Grotesk';
+  src: url('./fonts/NiveauGroteskRegular.woff2') format('woff2'),
+      url('./fonts/NiveauGroteskRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Niveau Grotesk';
+  src: url('./fonts/NiveauGroteskMedium.woff2') format('woff2'),
+      url('./fonts/NiveauGroteskMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

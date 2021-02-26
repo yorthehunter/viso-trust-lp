@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.scss';
-import Button from '@material-ui/core/Button';
 import GlobalNav from '../GlobalNav';
 
 const App = () => (
@@ -11,9 +10,9 @@ const App = () => (
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <Button variant="contained" color="primary">
-        Material UI Button
-      </Button>
+      <button>
+        Button
+      </button>
     </header>
   </div>
 )

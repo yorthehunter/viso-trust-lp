@@ -1,0 +1,25 @@
+// Typography mixins create a standardized type hierarchy
+//
+// $isResponsive: boolean that re-renders text different sizes
+// at different media queries
+
+@mixin type-body($size, $isResponsive: false) {
+  font-family: $font-family-default;
+  font-weight: $font-weight-light;
+  font-size: map-get($map: $type-sizes, $key: 'body-#{$size}');
+  line-height: map-get($map: $type-line-heights, $key: 'body-#{$size}');
+}
+
+@mixin type-title($size, $isResponsive: false) {
+  font-family: $font-family-default;
+  font-weight: $font-weight-medium;
+  font-size: map-get($map: $type-sizes, $key: 'title-#{$size}');
+  line-height: map-get($map: $type-line-heights, $key: 'title-#{$size}');
+}
+
+@mixin type-component($size, $isResponsive: false) {
+  font-family: $font-family-default;
+  font-weight: $font-weight-regular;
+  font-size: map-get($map: $type-sizes, $key: 'component-#{$size}');
+  line-height: map-get($map: $type-line-heights, $key: 'component-#{$size}');
+}

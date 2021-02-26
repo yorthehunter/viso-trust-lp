@@ -1,0 +1,20 @@
+// Breakpoint mixins accept any pixel values, but typically expect a
+// value from the $breakpoints map (see foundation/variables.scss)
+
+@mixin above-breakpoint($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin below-breakpoint($breakpoint) {
+  @media screen and (max-width: $breakpoint - 1px) {
+    @content;
+  }
+}
+
+@mixin between-breakpoint($min-breakpoint, $max-breakpoint) {
+  @media screen and (min-width: $min-breakpoint) and (max-width: $max-breakpoint - 1px) {
+    @content;
+  }
+}

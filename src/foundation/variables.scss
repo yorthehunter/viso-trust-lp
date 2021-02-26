@@ -1,0 +1,81 @@
+// Color palette
+$color-cyan-30: #1B7E7E;
+$color-cyan-45: #29BDBD;
+$color-cyan-60: #57DBDB;
+$color-cyan-75: #96E8E8;
+$color-gold-45: #DFB907;
+$color-gold-55: #F8D220;
+$color-gold-75: #FBE683;
+$color-gray-15: #262626;
+$color-gray-25: #404040;
+$color-gray-35: #595959;
+$color-gray-45: #737373;
+$color-gray-55: #8C8C8C;
+$color-gray-70: #B2B2B2;
+$color-gray-80: #CCCCCC;
+$color-gray-88: #E0E0E0;
+$color-gray-95: #F2F2F2;
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+// Font setup
+
+$font-family-default: 'Niveau Grotesk';
+$font-weight-light: 300;
+$font-weight-regular: normal;
+$font-weight-medium: 500;
+
+// Typography
+$type-sizes: (
+  body-10: 0.75rem,
+  body-20: 0.88rem,
+  body-30: 1rem,
+  body-40: 1.12rem,
+  body-50: 1.25rem,
+  body-60: 1.75rem,
+
+  title-10: 1.62rem,
+  title-20: 2rem,
+  title-30: 2.5rem,
+  title-40: 3rem,
+  title-50: 3.5rem,
+  title-60: 4.25rem,
+
+  component-10: 0.75rem,
+  component-20: 0.88rem,
+  component-30: 1rem,
+  component-40: 1.12rem,
+  component-50: 1.25rem,
+  component-60: 1.75rem,
+);
+
+$type-line-heights: (
+  body-10: 1.25rem,
+  body-20: 1.25rem,
+  body-30: 1.5rem,
+  body-40: 1.75rem,
+  body-50: 2rem,
+  body-60: 2.5rem,
+
+  title-10: 2rem,
+  title-20: 2.5rem,
+  title-30: 3.25rem,
+  title-40: 3.75rem,
+  title-50: 4.5rem,
+  title-60: 5rem,
+
+  component-10: 0.75rem,
+  component-20: 1rem,
+  component-30: 1rem,
+  component-40: 1.25rem,
+  component-50: 1.25rem,
+  component-60: 1.75rem,
+);
+
+// Breakpoints for use in media-queries
+$breakpoints: (
+  xs: 600px,
+  sm: 960px,
+  md: 1280px,
+  lg: 1920px,
+);
