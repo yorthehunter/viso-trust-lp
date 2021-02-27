@@ -22,6 +22,7 @@
 .content {
   display: flex;
   max-width: 80rem;
+  width: 100%;
   margin: auto;
   padding: 1rem 2rem;
   max-height: 4.5rem;
@@ -30,6 +31,7 @@
 .logo {
   display: inline-block;
   flex: 1 1;
+  width: 174px;
 
   > img {
   max-height: 100%;
@@ -43,8 +45,8 @@
   justify-content: center;
 }
 
-.navItem {
-
+.navItem + .navItem {
+  margin-left: 1rem;
 }
 
 .navLink {

@@ -3,16 +3,9 @@
 .heroModule {
   background-color: $color-gray-15;
   color: $color-white;
-  display: grid;
-  grid-template-columns: repeat(16, 1fr);
-
-  header {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
 
   h1 + h2,
-  h2 + button {
+  h2 + a {
     margin-top: 3rem;
   }
 
@@ -34,6 +27,19 @@
 .content {
   max-width: 80rem;
   margin: auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.header {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
   grid-column-start: 4;
   grid-column-end: 14;
+}
+
+.heroImage {
+  grid-column-start: 2;
+  grid-column-end: 16;
 }

@@ -1,0 +1,24 @@
+@import '../../foundation/';
+
+.button {
+}
+
+.small {
+  @include button-small;
+}
+
+.medium {
+  @include button-medium;
+}
+
+.large {
+  @include button-large;
+}
+
+.primary {
+  @include button-cta-primary;
+}
+
+.secondary {
+  @include button-cta-secondary;
+}

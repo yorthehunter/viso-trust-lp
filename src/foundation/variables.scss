@@ -18,8 +18,13 @@ $color-gray-95: #F2F2F2;
 $color-black: #000000;
 $color-white: #FFFFFF;
 
-// Font setup
+// Brand / Identity colors
+$color-brand-primary: $color-gold-55;
+$color-brand-secondary: $color-cyan-45;
+$color-text-on-brand-primary: $color-black;
+$color-text-on-brand-secondary: $color-black;
 
+// Font setup
 $font-family-default: 'Niveau Grotesk';
 $font-weight-light: 300;
 $font-weight-regular: normal;
@@ -79,3 +84,7 @@ $breakpoints: (
   md: 1280px,
   lg: 1920px,
 );
+
+// Motion
+$motion-timing-default: 200ms;
+$motion-easing-default: ease-out;
