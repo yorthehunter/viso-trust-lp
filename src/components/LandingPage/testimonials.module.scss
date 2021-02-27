@@ -1,0 +1,92 @@
+@import '../../foundation/';
+
+.testimonialsModule {
+  background-color: $color-gray-95;
+  color: $color-gray-15;
+  background-image:
+  url(./triangles-fade-in.svg);
+background-position: left top;
+background-repeat: no-repeat;
+  box-shadow: inset 0px 0.5rem 1.75rem rgba(0, 0, 0, 0.15);
+  padding: 8rem 0;
+
+  h2 {
+    @include type-title(50);
+    text-align: center;
+  }
+
+  h3 {
+    @include type-title(30);
+    color: $color-gray-35;
+    text-align: center;
+  }
+
+  h2 + .description,
+  .description + h3 {
+    margin-top: 4rem;
+  }
+}
+
+.description {
+  @include type-body(60);
+  border-left: 0.5rem solid $color-gold-45;
+  padding-left: 1rem;
+  color: $color-gray-25;
+}
+
+.content {
+  max-width: 80rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.header {
+  grid-column-start: 3;
+  grid-column-end: 15;
+}
+
+.testimonials {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 59rem;
+}
+
+.testimonialCard {
+  box-shadow: 0px 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  background-color: $color-white;
+  padding: 2rem;
+  background-image:
+  url(./quotes.svg);
+  background-position: left 2rem top 2rem;
+  background-repeat: no-repeat;
+}
+
+.cardLogo {
+  margin-left: auto;
+  max-height: 2rem;
+}
+
+.cardBody {
+  @include type-body(50);
+}
+
+.cardAuthor {
+  @include type-body(40);
+  color: $color-gray-35;
+}
+
+.cardLogo + .cardBody,
+.cardBody + .cardAuthor {
+  margin-top: 1.5rem;
+}
+
+.ctaContainer {
+  margin: auto;
+  text-align: center;
+}
