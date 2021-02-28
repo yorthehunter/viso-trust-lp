@@ -6,8 +6,8 @@
   background-image:
   url(./triangles-repeated.svg),
   url(./triangles-fade-out.svg);
-background-position: bottom, left bottom 192px;
-background-repeat: repeat-x, no-repeat;
+  background-position: left bottom, left bottom 192px;
+  background-repeat: repeat-x, no-repeat;
 
   h1 + h2,
   h2 + a {
