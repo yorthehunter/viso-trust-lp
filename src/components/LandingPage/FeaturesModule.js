@@ -1,6 +1,10 @@
 import React from 'react'
 import CTA from '../CTA'
 import style from './featuresModule.module.scss'
+import SimpleCarousel from 'simple-react-carousel';
+import product1 from './visotrust-product-shot-1.png'
+import product2 from './visotrust-product-shot-2.png'
+import product3 from './visotrust-product-shot-3.png'
 
 const FeaturesModule = () => (
   <section className={style.featuresModule}>
@@ -21,6 +25,13 @@ const FeaturesModule = () => (
           <li>An expert team curates assessments using AI and document heuristics</li>
           <li>Risk assessments are delivered at the speed of business</li>
         </ul>
+      </section>
+      <section className={style.productCarousel}>
+        <SimpleCarousel itemFit="contain" indicatorOptions={{ shape: 'circle' }}>
+          <img src={product1} alt="Screenshot of the app"/>
+          <img src={product2} alt="Screenshot of the app"/>
+          <img src={product3} alt="Screenshot of the app"/>
+        </SimpleCarousel>
       </section>
       <section className={style.ctaContainer}>
         <CTA size="large" variant="primary" href="https://calendly.com/visotrust-team/product-demo">Schedule a Demo</CTA>
