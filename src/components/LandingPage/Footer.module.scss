@@ -1,0 +1,50 @@
+@import '../../foundation/';
+
+.footer {
+  background-color: $color-gray-15;
+  color: $color-white;
+  background-image:
+  url(./triangles-repeated.svg),
+  url(./triangles-fade-out.svg);
+  background-position: bottom, left bottom 192px;
+  background-repeat: repeat-x, no-repeat;
+
+  padding: 4rem 1rem 21rem;
+  text-align: center;
+}
+
+.logo {
+  height: 2.75rem;
+  margin: 0 auto 4rem auto;
+  
+  @include below-breakpoint($breakpoint-sm) {
+    margin: 2rem auto;
+  }
+}
+
+.links {
+  display: inline-flex;
+  margin: 0 auto 4rem auto;
+
+  > li + li {
+    margin-left: 2rem;
+  }
+
+  a {
+    @include type-body(40);
+    text-decoration: none;
+    color: $color-cyan-60;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include below-breakpoint($breakpoint-sm) {
+    margin: 0 auto 2rem auto;
+  }
+}
+
+.tagline {
+  @include type-body(60, true);
+}
