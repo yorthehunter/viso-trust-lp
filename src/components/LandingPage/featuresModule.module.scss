@@ -3,19 +3,6 @@
 .featuresModule {
   background-color: $color-gray-15;
   color: $color-white;
-
-  h1 + h2,
-  h2 + a {
-    margin-top: 3rem;
-  }
-
-  h1 {
-    @include type-title(60);
-  }
-
-  h2 {
-    @include type-body(60);
-  }
 }
 
 .content {
@@ -23,17 +10,46 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .header {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
   text-align: center;
   grid-column-start: 4;
   grid-column-end: 14;
+  margin-bottom: 4rem;
+
+  h2 {
+    @include type-title(50);
+  }
 }
 
 .heroImage {
   grid-column-start: 2;
   grid-column-end: 16;
+}
+
+.features {
+  grid-column-start: 4;
+  grid-column-end: 14;
+
+  h3 {
+    @include type-title(20);
+
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    @include type-body(50);
+
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.ctaContainer {
+  grid-column-start: 4;
+  grid-column-end: 14;
+  text-align: center;
 }
