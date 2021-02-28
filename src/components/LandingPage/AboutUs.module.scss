@@ -1,0 +1,103 @@
+@import '../../foundation/';
+
+.aboutUs {
+  background-color: $color-gray-95;
+  color: $color-gray-15;
+  background-image:
+  url(./triangles-fade-in.svg);
+background-position: left top;
+background-repeat: no-repeat;
+  box-shadow: inset 0px 0.5rem 1.75rem rgba(0, 0, 0, 0.15);
+  padding: 8rem 0;
+  text-align: center;
+
+  @include below-breakpoint($breakpoint-sm) {
+    padding: 8rem 0 4rem;
+  }
+
+  h2 {
+    @include type-title(50, $isResponsive: true);
+    text-align: center;
+  }
+
+  h2 + .description,
+  .description + h3 {
+    margin-top: 4rem;
+
+    @include below-breakpoint($breakpoint-sm) {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.description {
+  @include type-body(60, true);
+  color: $color-gray-25;
+  margin-bottom: 4rem;
+}
+
+.content {
+  max-width: 80rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.header {
+  grid-column-start: 3;
+  grid-column-end: 15;
+  
+  @include below-breakpoint($breakpoint-xs) {
+    grid-column-start: 2;
+    grid-column-end: 16;
+  }
+}
+
+.members {
+  grid-column-start: 3;
+  grid-column-end: 15;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+  
+  @include below-breakpoint($breakpoint-xs) {
+    grid-column-start: 2;
+    grid-column-end: 16;
+  }
+}
+
+.aboutUsMember {
+  text-align: left;
+  grid-column: span 4;
+
+  &:nth-child(2n) {
+    grid-column-start: 7;
+    grid-column-end: 11;
+  }
+
+  @include below-breakpoint($breakpoint-xs) {
+    grid-column: span 8;
+    grid-column-start: 2;
+    grid-column-end: 10;
+
+    &:nth-child(2) {
+      grid-column-start: 2;
+      grid-column-end: 10;
+    }
+  }
+
+  .image {
+    margin-bottom: 1rem;
+  }
+
+  .name {
+    @include type-title(10);
+    margin-bottom: 0.5rem;
+  }
+
+  .role,
+  .description {
+    @include type-body(50);
+    margin-bottom: 1.5rem;
+  }
+}
