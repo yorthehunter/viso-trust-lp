@@ -78,12 +78,10 @@ $type-line-heights: (
 );
 
 // Breakpoints for use in media-queries
-$breakpoints: (
-  xs: 600px,
-  sm: 960px,
-  md: 1280px,
-  lg: 1920px,
-);
+$breakpoint-xs: 600px;
+$breakpoint-sm: 960px;
+$breakpoint-md: 1280px;
+$breakpoint-lg: 1920px;
 
 // Motion
 $motion-timing-default: 200ms;

@@ -12,6 +12,11 @@
   grid-template-columns: repeat(16, 1fr);
   padding-top: 8rem;
   padding-bottom: 8rem;
+
+  @include below-breakpoint($breakpoint-sm) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .header {
@@ -21,7 +26,13 @@
   margin-bottom: 4rem;
 
   h2 {
-    @include type-title(50);
+    @include type-title(50, true);
+  }
+
+  @include below-breakpoint($breakpoint-sm) {
+    grid-column-start: 2;
+    grid-column-end: 16;
+    margin-bottom: 2rem;
   }
 }
 
@@ -35,7 +46,7 @@
   grid-column-end: 14;
 
   h3 {
-    @include type-title(20);
+    @include type-title(20, true);
 
     margin-bottom: 1rem;
   }
@@ -45,6 +56,11 @@
 
     padding-left: 1rem;
     margin-bottom: 3rem;
+  }
+
+  @include below-breakpoint($breakpoint-sm) {
+    grid-column-start: 2;
+    grid-column-end: 16;
   }
 }
 

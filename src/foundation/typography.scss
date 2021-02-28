@@ -8,6 +8,22 @@
   font-weight: $font-weight-light;
   font-size: map-get($map: $type-sizes, $key: 'body-#{$size}');
   line-height: map-get($map: $type-line-heights, $key: 'body-#{$size}');
+
+  @if ($isResponsive) {
+    @include below-breakpoint($breakpoint-sm) {
+      @if ($size - 10) > 0 {
+        font-size: map-get($map: $type-sizes, $key: 'body-#{($size - 10)}');
+        line-height: map-get($map: $type-line-heights, $key: 'body-#{($size - 10)}');
+      }
+    }
+
+    @include below-breakpoint($breakpoint-xs) {
+      @if ($size - 20) > 0 {
+        font-size: map-get($map: $type-sizes, $key: 'body-#{($size - 20)}');
+        line-height: map-get($map: $type-line-heights, $key: 'body-#{($size - 20)}');
+      }
+    }
+  }
 }
 
 @mixin type-title($size, $isResponsive: false) {
@@ -15,6 +31,22 @@
   font-weight: $font-weight-medium;
   font-size: map-get($map: $type-sizes, $key: 'title-#{$size}');
   line-height: map-get($map: $type-line-heights, $key: 'title-#{$size}');
+
+  @if ($isResponsive) {
+    @include below-breakpoint($breakpoint-sm) {
+      @if ($size - 10) > 0 {
+        font-size: map-get($map: $type-sizes, $key: 'title-#{($size - 10)}');
+        line-height: map-get($map: $type-line-heights, $key: 'title-#{($size - 10)}');
+      }
+    }
+
+    @include below-breakpoint($breakpoint-xs) {
+      @if ($size - 20) > 0 {
+        font-size: map-get($map: $type-sizes, $key: 'title-#{($size - 20)}');
+        line-height: map-get($map: $type-line-heights, $key: 'title-#{($size - 20)}');
+      }
+    }
+  }
 }
 
 @mixin type-component($size, $isResponsive: false) {

@@ -10,13 +10,17 @@ background-repeat: no-repeat;
   box-shadow: inset 0px 0.5rem 1.75rem rgba(0, 0, 0, 0.15);
   padding: 8rem 0;
 
+  @include below-breakpoint($breakpoint-sm) {
+    padding: 8rem 0 4rem;
+  }
+
   h2 {
-    @include type-title(50);
+    @include type-title(50, $isResponsive: true);
     text-align: center;
   }
 
   h3 {
-    @include type-title(30);
+    @include type-title(30, true);
     color: $color-gray-35;
     text-align: center;
   }
@@ -24,11 +28,15 @@ background-repeat: no-repeat;
   h2 + .description,
   .description + h3 {
     margin-top: 4rem;
+
+    @include below-breakpoint($breakpoint-sm) {
+      margin-top: 2rem;
+    }
   }
 }
 
 .description {
-  @include type-body(60);
+  @include type-body(60, true);
   border-left: 0.5rem solid $color-gold-45;
   padding-left: 1rem;
   color: $color-gray-25;
@@ -44,6 +52,11 @@ background-repeat: no-repeat;
 .header {
   grid-column-start: 3;
   grid-column-end: 15;
+  
+  @include below-breakpoint($breakpoint-xs) {
+    grid-column-start: 2;
+    grid-column-end: 16;
+  }
 }
 
 .testimonials {
@@ -55,6 +68,10 @@ background-repeat: no-repeat;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   max-width: 59rem;
+
+  @include below-breakpoint($breakpoint-xs) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .testimonialCard {

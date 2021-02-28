@@ -12,14 +12,18 @@ background-repeat: repeat-x, no-repeat;
   h1 + h2,
   h2 + a {
     margin-top: 3rem;
+
+    @include below-breakpoint($breakpoint-sm) {
+      margin-top: 1.5rem;
+    }
   }
 
   h1 {
-    @include type-title(60);
+    @include type-title(60, true);
   }
 
   h2 {
-    @include type-body(60);
+    @include type-body(60, true);
   }
 }
 
@@ -36,9 +40,21 @@ background-repeat: repeat-x, no-repeat;
   text-align: center;
   grid-column-start: 4;
   grid-column-end: 14;
+
+  @include below-breakpoint($breakpoint-sm) {
+    grid-column-start: 2;
+    grid-column-end: 16;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .heroImage {
   grid-column-start: 2;
   grid-column-end: 16;
+
+  @include below-breakpoint($breakpoint-xs) {
+    grid-column-start: 1;
+    grid-column-end: 17;
+  }
 }
