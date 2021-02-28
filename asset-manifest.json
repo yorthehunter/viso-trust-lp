@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/viso-trust-lp/static/css/main.24ed39e6.chunk.css",
-    "main.js": "/viso-trust-lp/static/js/main.9115be23.chunk.js",
-    "main.js.map": "/viso-trust-lp/static/js/main.9115be23.chunk.js.map",
-    "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.40625c72.js",
-    "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.40625c72.js.map",
-    "static/js/2.5975f0a5.chunk.js": "/viso-trust-lp/static/js/2.5975f0a5.chunk.js",
-    "static/js/2.5975f0a5.chunk.js.map": "/viso-trust-lp/static/js/2.5975f0a5.chunk.js.map",
-    "static/js/3.bae9967e.chunk.js": "/viso-trust-lp/static/js/3.bae9967e.chunk.js",
-    "static/js/3.bae9967e.chunk.js.map": "/viso-trust-lp/static/js/3.bae9967e.chunk.js.map",
+    "main.css": "/viso-trust-lp/static/css/main.6d716461.chunk.css",
+    "main.js": "/viso-trust-lp/static/js/main.7254d23e.chunk.js",
+    "main.js.map": "/viso-trust-lp/static/js/main.7254d23e.chunk.js.map",
+    "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.b26e10d4.js",
+    "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.b26e10d4.js.map",
+    "static/js/2.203487ab.chunk.js": "/viso-trust-lp/static/js/2.203487ab.chunk.js",
+    "static/js/2.203487ab.chunk.js.map": "/viso-trust-lp/static/js/2.203487ab.chunk.js.map",
+    "static/js/3.f54efaaa.chunk.js": "/viso-trust-lp/static/js/3.f54efaaa.chunk.js",
+    "static/js/3.f54efaaa.chunk.js.map": "/viso-trust-lp/static/js/3.f54efaaa.chunk.js.map",
     "index.html": "/viso-trust-lp/index.html",
-    "static/css/main.24ed39e6.chunk.css.map": "/viso-trust-lp/static/css/main.24ed39e6.chunk.css.map",
-    "static/js/2.5975f0a5.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.5975f0a5.chunk.js.LICENSE.txt",
+    "static/css/main.6d716461.chunk.css.map": "/viso-trust-lp/static/css/main.6d716461.chunk.css.map",
+    "static/js/2.203487ab.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.203487ab.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/viso-trust-lp/static/media/NiveauGroteskRegular.eceb2cc5.woff2",
     "static/media/landing-page-hero.324721a9.png": "/viso-trust-lp/static/media/landing-page-hero.324721a9.png",
     "static/media/logo-white.bbdb1394.png": "/viso-trust-lp/static/media/logo-white.bbdb1394.png",
@@ -26,9 +26,9 @@
     "static/media/visotrust-russell-sherman.cf74c303.png": "/viso-trust-lp/static/media/visotrust-russell-sherman.cf74c303.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40625c72.js",
-    "static/js/2.5975f0a5.chunk.js",
-    "static/css/main.24ed39e6.chunk.css",
-    "static/js/main.9115be23.chunk.js"
+    "static/js/runtime-main.b26e10d4.js",
+    "static/js/2.203487ab.chunk.js",
+    "static/css/main.6d716461.chunk.css",
+    "static/js/main.7254d23e.chunk.js"
   ]
 }
