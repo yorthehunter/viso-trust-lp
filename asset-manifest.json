@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/viso-trust-lp/static/css/main.5f2f3527.chunk.css",
-    "main.js": "/viso-trust-lp/static/js/main.7254d23e.chunk.js",
-    "main.js.map": "/viso-trust-lp/static/js/main.7254d23e.chunk.js.map",
+    "main.css": "/viso-trust-lp/static/css/main.bbccfa79.chunk.css",
+    "main.js": "/viso-trust-lp/static/js/main.579f1a1a.chunk.js",
+    "main.js.map": "/viso-trust-lp/static/js/main.579f1a1a.chunk.js.map",
     "runtime-main.js": "/viso-trust-lp/static/js/runtime-main.b26e10d4.js",
     "runtime-main.js.map": "/viso-trust-lp/static/js/runtime-main.b26e10d4.js.map",
     "static/js/2.203487ab.chunk.js": "/viso-trust-lp/static/js/2.203487ab.chunk.js",
@@ -10,15 +10,12 @@
     "static/js/3.f54efaaa.chunk.js": "/viso-trust-lp/static/js/3.f54efaaa.chunk.js",
     "static/js/3.f54efaaa.chunk.js.map": "/viso-trust-lp/static/js/3.f54efaaa.chunk.js.map",
     "index.html": "/viso-trust-lp/index.html",
-    "static/css/main.5f2f3527.chunk.css.map": "/viso-trust-lp/static/css/main.5f2f3527.chunk.css.map",
+    "static/css/main.bbccfa79.chunk.css.map": "/viso-trust-lp/static/css/main.bbccfa79.chunk.css.map",
     "static/js/2.203487ab.chunk.js.LICENSE.txt": "/viso-trust-lp/static/js/2.203487ab.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/viso-trust-lp/static/media/NiveauGroteskRegular.eceb2cc5.woff2",
     "static/media/landing-page-hero.324721a9.png": "/viso-trust-lp/static/media/landing-page-hero.324721a9.png",
     "static/media/logo-white.bbdb1394.png": "/viso-trust-lp/static/media/logo-white.bbdb1394.png",
-    "static/media/logo.6ce24c58.svg": "/viso-trust-lp/static/media/logo.6ce24c58.svg",
-    "static/media/testimonials.module.scss": "/viso-trust-lp/static/media/quotes.2cd67627.svg",
-    "static/media/AboutUs.module.scss": "/viso-trust-lp/static/media/triangles-fade-in.40c3f6e2.svg",
-    "static/media/Footer.module.scss": "/viso-trust-lp/static/media/triangles-repeated.418f48e0.svg",
+    "static/media/styles.module.scss": "/viso-trust-lp/static/media/triangles-repeated.418f48e0.svg",
     "static/media/visotrust-paul-valente.938659d0.png": "/viso-trust-lp/static/media/visotrust-paul-valente.938659d0.png",
     "static/media/visotrust-product-shot-1.812f3591.png": "/viso-trust-lp/static/media/visotrust-product-shot-1.812f3591.png",
     "static/media/visotrust-product-shot-2.ee70503a.png": "/viso-trust-lp/static/media/visotrust-product-shot-2.ee70503a.png",
@@ -28,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.b26e10d4.js",
     "static/js/2.203487ab.chunk.js",
-    "static/css/main.5f2f3527.chunk.css",
-    "static/js/main.7254d23e.chunk.js"
+    "static/css/main.bbccfa79.chunk.css",
+    "static/js/main.579f1a1a.chunk.js"
   ]
 }
