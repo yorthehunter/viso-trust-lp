@@ -9,6 +9,10 @@
   background-position: left bottom, left bottom 192px;
   background-repeat: repeat-x, no-repeat;
 
+  @include below-breakpoint($breakpoint-sm) {
+    background-image: none;
+  }
+
   h1 + h2,
   h2 + a {
     margin-top: 3rem;

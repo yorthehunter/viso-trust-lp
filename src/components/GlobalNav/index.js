@@ -10,7 +10,6 @@ import {
   MenuLink,
 } from "@reach/menu-button";
 import IconMenu from '../Icons/IconMenu';
-// import "@reach/menu-button/styles.css";
 
 const GlobalNav = () => (
   <nav className={style.globalNav}>
