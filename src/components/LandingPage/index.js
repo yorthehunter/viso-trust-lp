@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroModule from './HeroModule'
-import TestimonialsModule from './TestimonialsModule'
-import FeaturesModule from './FeaturesModule'
-import AboutUsModule from './AboutUsModule'
-import Footer from './Footer'
+import HeroModule from './Hero/'
+import TestimonialsModule from './Testimonials/'
+import FeaturesModule from './Features/'
+import AboutUsModule from './AboutUs/'
+import Footer from './Footer/'
 
 const LandingPage = () => {
   return (

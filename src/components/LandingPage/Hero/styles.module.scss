@@ -1,11 +1,11 @@
-@import '../../foundation/';
+@import '../../../foundation/';
 
 .heroModule {
   background-color: $color-gray-15;
   color: $color-white;
   background-image:
-  url(./triangles-repeated.svg),
-  url(./triangles-fade-out.svg);
+  url(../images/triangles-repeated.svg),
+  url(../images/triangles-fade-out.svg);
   background-position: left bottom, left bottom 192px;
   background-repeat: repeat-x, no-repeat;
 

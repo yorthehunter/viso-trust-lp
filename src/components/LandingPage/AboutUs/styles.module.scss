@@ -1,10 +1,10 @@
-@import '../../foundation/';
+@import '../../../foundation/';
 
 .aboutUs {
   background-color: $color-gray-95;
   color: $color-gray-15;
   background-image:
-  url(./triangles-fade-in.svg);
+  url(../images/triangles-fade-in.svg);
   background-position: left top;
   background-repeat: no-repeat;
   box-shadow: inset 0px 0.5rem 1.75rem rgba(0, 0, 0, 0.15);

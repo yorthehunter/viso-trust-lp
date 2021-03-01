@@ -1,10 +1,10 @@
 import React from 'react'
-import CTA from '../CTA'
-import style from './featuresModule.module.scss'
+import CTA from '../../CTA'
+import style from './styles.module.scss'
 import SimpleCarousel from 'simple-react-carousel';
-import product1 from './visotrust-product-shot-1.png'
-import product2 from './visotrust-product-shot-2.png'
-import product3 from './visotrust-product-shot-3.png'
+import product1 from '../images/visotrust-product-shot-1.png'
+import product2 from '../images/visotrust-product-shot-2.png'
+import product3 from '../images/visotrust-product-shot-3.png'
 
 const FeaturesModule = () => (
   <section className={style.featuresModule}>

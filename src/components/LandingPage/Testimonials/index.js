@@ -1,7 +1,7 @@
 import React from 'react'
-import CTA from '../CTA'
+import CTA from '../../CTA'
 import Testimonials from './Testimonials'
-import style from './testimonials.module.scss'
+import style from './styles.module.scss'
 
 const TestimonialsModule = () => (
   <section className={style.testimonialsModule}>

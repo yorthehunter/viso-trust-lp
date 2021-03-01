@@ -1,7 +1,7 @@
 import React from 'react'
-import CTA from '../CTA'
-import style from './heroModule.module.scss'
-import heroImage from './landing-page-hero.png'
+import CTA from '../../CTA'
+import style from './styles.module.scss'
+import heroImage from '../images/landing-page-hero.png'
 
 const HeroModule = () => (
   <section className={style.heroModule}>

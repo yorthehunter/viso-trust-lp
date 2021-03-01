@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './AboutUs.module.scss'
+import style from './styles.module.scss'
 
 const AboutUsMember = ({ image, imageAlt, name, role, description }) => (
   <article className={style.aboutUsMember}>

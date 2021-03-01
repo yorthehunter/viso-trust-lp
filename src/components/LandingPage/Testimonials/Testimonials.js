@@ -1,8 +1,8 @@
 import React from 'react'
 import TestimonialCard from './TestimonialCard'
-import style from './testimonials.module.scss'
-import cruise from './logos/cruise.png'
-import illumio from './logos/illumio.png'
+import style from './styles.module.scss'
+import cruise from '../logos/cruise.png'
+import illumio from '../logos/illumio.png'
 
 const Testimonials = () => {
   const testimonials = [

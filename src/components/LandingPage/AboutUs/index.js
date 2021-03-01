@@ -1,8 +1,8 @@
 import React from 'react'
-import style from './AboutUs.module.scss'
+import style from './styles.module.scss'
 import AboutUsMember from './AboutUsMember'
-import paul from './visotrust-paul-valente.png';
-import russ from './visotrust-russell-sherman.png';
+import paul from '../images/visotrust-paul-valente.png';
+import russ from '../images/visotrust-russell-sherman.png';
 
 const AboutUsModule = () => {
   return (

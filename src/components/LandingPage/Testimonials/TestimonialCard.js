@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './testimonials.module.scss'
+import style from './styles.module.scss'
 
 const TestimonialCard = ({ logo, body, author }) => {
   return (
